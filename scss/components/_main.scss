@@ -1,0 +1,343 @@
+main {
+    margin: 3rem;
+}
+
+.img-logo-whatsapp {
+    width: 6rem;
+    height: 6rem;
+}
+
+.whatsapp-contenedor {
+    display: flex;
+    justify-content: flex-end;
+    position: static;
+    margin-bottom: 10rem;
+}
+
+.objetivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .alta-caja {
+        width: 30rem;
+        height: 11rem;
+        border: 1rem solid rgb(0, 0, 0);
+        border-width: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        @keyframes cambio-color{
+            from{background-color: rgba(255, 255, 255, 0.825)}
+            50%{background-color: rgb(255, 255, 255);}
+            to{background-color: rgba(255, 255, 255, 0.825);}
+        }
+    }
+
+    .socios-caja {
+        width: 30rem;
+        height: 8rem;
+        border: 1rem solid rgb(0, 0, 0);
+        border-width: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 189, 67, 0.799);
+        margin-bottom: 4rem;
+    }
+}
+
+
+
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+
+
+.body-contenedor {
+    background-color: rgba(226, 226, 226, 0.737);
+    padding: 1rem
+
+}
+
+.texto-imagen {
+    width: 50%
+}
+
+.img-texto-imagen {
+    height: 8rem;
+    width: 15rem;
+    float: right;
+    margin-right: 3rem;
+}
+
+.main-tarifas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .card {
+        width: 20rem;
+        height: 25rem;
+        border: 0.25 solid rgb(90, 90, 90);
+        background-color: rgba(226, 226, 226, 0.867);
+        margin: 1rem;
+        padding: 1.5rem;
+
+        .titulo-card {
+            display: flex;
+            justify-content: center;
+        }
+
+        .lista {
+            list-style: square;
+        }
+    }
+}
+
+
+
+.seccion {
+    width: 30%;
+    border: 0.1rem solid rgb(0, 0, 0);
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secciones {
+    display: flex;
+    height: 32rem;
+    color: rgb(255, 255, 255);
+
+    .img-centro1 {
+        background-image: url(../img/entrenamiento-cardiovascular.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: round;
+        background-size: calc(100%);
+    }
+    
+    .img-centro2 {
+        background-image: url(../img/zona-de-musculacion.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: round;
+        background-size: calc(100%);
+    }
+    
+    .img-centro3 {
+        background-image: url(../img/clases-grupales.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: calc(100%);
+    }
+    
+    .img-centro4 {
+        background-image: url(../img/piscina-y-spa.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: round;
+        background-size: calc(100%);
+    }
+
+}
+
+
+.titulo {
+    font-size: xx-large;
+}
+
+.contacto {
+    width: 20rem;
+    height: 22rem;
+    background-color: rgb(226, 226, 226);
+    margin: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.horario {
+    width: 20rem;
+    height: 10rem;
+    background-color: rgb(226, 226, 226);
+    margin: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (max-width:1023px) {
+    .alta-caja {
+        width: 25rem;
+        height: 8rem;
+    }
+
+    .socios-caja {
+        width: 25rem;
+        height: 6rem;
+    }
+
+    .img-logo-whatsapp {
+        display: none;
+    }
+
+    .whatsapp-contenedor {
+        margin-bottom: 5rem;
+    }
+
+    .card {
+        width: 15rem;
+        height: 23rem;
+    }
+
+    h3 {
+        font-size: large;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    li {
+        font-size: small;
+    }
+
+    .secciones {
+        height: 24rem;
+    }
+
+    .titulo {
+        font-size: medium;
+    }
+
+    .contacto {
+        width: 20rem;
+        height: 16rem;
+    }
+
+    .h-contacto {
+        font-size: larger;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .objetivo {
+        margin-top: 8rem;
+        margin-bottom: 10rem;
+
+    }
+
+    .alta-caja {
+        width: 14rem;
+        height: 6rem;
+    }
+
+    .socios-caja {
+        width: 14rem;
+        height: 4rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .whatsapp-contenedor {
+        display: none;
+    }
+
+    .texto-imagen {
+        width: 100%;
+    }
+
+    .img-texto-imagen {
+        display: none;
+    }
+
+    .card {
+        width: 17rem;
+        height: 23rem;
+        padding: 0;
+        border: 0.5rem solid rgba(226, 226, 226, 0.793);
+    }
+
+    .main-tarifas {
+        margin: 1rem;
+    }
+
+    h3 {
+        font-size: medium;
+    }
+
+    p {
+        font-size: smaller;
+    }
+
+    li {
+        font-size: smaller;
+    }
+
+    .seccion {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .secciones {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100rem;
+    }
+
+    .img-centro1 {
+        background-repeat: repeat;
+    }
+
+    .img-centro2 {
+        background-repeat: repeat;
+    }
+
+    .img-centro3 {
+        background-repeat: repeat;
+    }
+
+    .img-centro4 {
+        background-repeat: repeat;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto {
+        width: 13rem;
+        height: 18rem;
+    }
+
+    .horario {
+        width: 13rem;
+        height: 8rem;
+    }
+}

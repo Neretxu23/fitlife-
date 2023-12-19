@@ -1,0 +1,218 @@
+/*Media query header*/
+/*Tablet*/
+@media only screen and (max-width:1023px) {
+    .nav-list {
+        height: 3rem;
+    }
+
+    .ul-nav {
+        margin-top: 1rem;
+    }
+
+    .img-logo-fitlife {
+        width: 6rem;
+        height: 4rem;
+        margin-left: 2rem;
+    }
+}
+/*Fin Tablet*/
+
+/*Mobile*/
+
+@media only screen and (max-width:480px) {
+    body {
+        background-size: cover;
+    }
+
+    main {
+        margin: 2rem;
+    }
+
+    .ul-nav {
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: medium;
+        padding-left: 1rem;
+    }
+
+    .nav-list {
+        width: 7rem;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .img-logo-fitlife {
+        margin-left: 0;
+    }
+}
+/*Fin Mobile*/
+/*Fin Media query header*/
+
+/*Media query main*/
+/*Tablet*/
+@media only screen and (max-width:1023px) {
+    .alta-caja {
+        width: 25rem;
+        height: 8rem;
+    }
+
+    .socios-caja {
+        width: 25rem;
+        height: 6rem;
+    }
+
+    .img-logo-whatsapp {
+        display: none;
+    }
+
+    .whatsapp-contenedor {
+        margin-bottom: 5rem;
+    }
+
+    .card {
+        width: 15rem;
+        height: 23rem;
+    }
+
+    h3 {
+        font-size: large;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    li {
+        font-size: small;
+    }
+
+    .secciones {
+        height: 24rem;
+    }
+
+    .titulo {
+        font-size: medium;
+    }
+
+    .contacto {
+        width: 20rem;
+        height: 16rem;
+    }
+
+    .h-contacto {
+        font-size: larger;
+    }
+}
+
+/*Fin tablet*/
+
+/*Mobile*/
+@media only screen and (max-width:480px) {
+    .objetivo {
+        margin-top: 8rem;
+        margin-bottom: 10rem;
+
+    }
+
+    .alta-caja {
+        width: 14rem;
+        height: 6rem;
+    }
+
+    .socios-caja {
+        width: 14rem;
+        height: 4rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .whatsapp-contenedor {
+        display: none;
+    }
+
+    .texto-imagen {
+        width: 100%;
+    }
+
+    .img-texto-imagen {
+        display: none;
+    }
+
+    .card {
+        width: 17rem;
+        height: 23rem;
+        padding: 0;
+        border: 0.5rem solid rgba(226, 226, 226, 0.793);
+    }
+
+    .main-tarifas {
+        margin: 1rem;
+    }
+
+    h3 {
+        font-size: medium;
+    }
+
+    p {
+        font-size: smaller;
+    }
+
+    li {
+        font-size: smaller;
+    }
+
+    .seccion {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .secciones {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100rem;
+    }
+
+    .img-centro1 {
+        background-repeat: repeat;
+    }
+
+    .img-centro2 {
+        background-repeat: repeat;
+    }
+
+    .img-centro3 {
+        background-repeat: repeat;
+    }
+
+    .img-centro4 {
+        background-repeat: repeat;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto {
+        width: 13rem;
+        height: 18rem;
+    }
+
+    .horario {
+        width: 13rem;
+        height: 8rem;
+    }
+}
+
+/*Fin Mobile*/
+
+/*Fin media querys main*/

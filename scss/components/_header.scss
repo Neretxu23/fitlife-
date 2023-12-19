@@ -1,0 +1,48 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    margin-top: 1rem;
+    background-image: url(../img/img-group-edited.jpg);
+    background-repeat: no-repeat;
+    background-size: calc(100%);
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.723);
+}
+
+a:link{
+    color: rgb(255, 189, 67);
+}
+
+a:hover{
+    color: rgba(255, 189, 67, 0.799);
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-list {
+    width: 50rem;
+    height: 6rem;
+}
+
+.ul-nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.img-logo-fitlife {
+    width: 8rem;
+    height: 6rem;
+}
+
